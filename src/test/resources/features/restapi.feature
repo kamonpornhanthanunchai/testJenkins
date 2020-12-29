@@ -1,4 +1,4 @@
-@runmeeemm
+@runme
 Feature: Test rest assured
 
   Scenario: Getting employee details

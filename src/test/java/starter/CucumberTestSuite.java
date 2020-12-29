@@ -8,7 +8,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(plugin = { "pretty" }, features = "src/test/resources/features", 
 //glue = "src/test/java/starter/stepdefinitions",
-tags = "@firsttest"
+tags = "@runme"
 )
 
 public class CucumberTestSuite {

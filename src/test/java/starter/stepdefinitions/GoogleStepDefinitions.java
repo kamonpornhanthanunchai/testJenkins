@@ -31,7 +31,7 @@ public class GoogleStepDefinitions {
 
 	@Then("{actor} should get information about {string}")
 	public void google_should_displayed_information_about(Actor actor, String keyWord) {
-		actor.attemptsTo(Ensure.that(GoogleSearchResult.SEARCH_RESULTHEADING).text().contains("Ham"));
+		actor.attemptsTo(Ensure.that(GoogleSearchResult.SEARCH_RESULTHEADING).text().contains(keyWord));
 	}
 
 }
